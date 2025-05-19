@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Link } from "react-router-dom";
-import { CheckCircle, Cpu, HardDrive, MemoryStick, Tool, Monitor, Clock, Hammer } from "lucide-react";
+import { CheckCircle, Cpu, HardDrive, MemoryStick, Wrench, Monitor, Clock, Hammer } from "lucide-react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
@@ -135,7 +135,7 @@ export default function ServicosPage() {
               <Card>
                 <CardHeader>
                   <div className="flex items-center gap-2">
-                    <Tool className="h-5 w-5 text-primary" />
+                    <Wrench className="h-5 w-5 text-primary" />
                     <CardTitle>Limpeza Completa</CardTitle>
                   </div>
                   <CardDescription>

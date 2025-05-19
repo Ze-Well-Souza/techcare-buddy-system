@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { toast } from "@/hooks/use-toast";
 import { Link } from "react-router-dom";
-import { ChevronRight, Computer, Tool, CheckCircle, Cpu, HardDrive, MemoryStick, Wifi } from "lucide-react";
+import { ChevronRight, Computer, Wrench, CheckCircle, Cpu, HardDrive, MemoryStick, Wifi } from "lucide-react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
@@ -53,7 +53,7 @@ export default function Index() {
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <Card>
               <CardHeader>
-                <Tool className="h-10 w-10 text-primary mb-2" />
+                <Wrench className="h-10 w-10 text-primary mb-2" />
                 <CardTitle>Reparo de Hardware</CardTitle>
                 <CardDescription>
                   Conserto de componentes com técnicos especializados
